@@ -372,7 +372,7 @@
   "word" : "BUS TO"
 }, {
   "mean" : "शौनकस्य",
-  "h_mean" : "कसाई की दुकान",
+  "h_mean" : "कसाई की",
   "word" : "BUTCHER'S"
 }, {
   "mean" : "पृष्टवा",
@@ -399,7 +399,7 @@
   "h_mean" : "देकर",
   "word" : "BY GIVING"
 }, {
-  "mean" : "मह्यम्",
+  "mean" : "रचयसि",
   "h_mean" : "बनाकर",
   "word" : "BY MAKING IT"
 }, {
@@ -485,7 +485,7 @@
 }, {
   "mean" : "छलेन",
   "h_mean" : "धोखे से",
-  "word" : "DANGER"
+  "word" : "DECEPTION"
 }, {
   "mean" : "साहसी",
   "h_mean" : "साहसी",
@@ -835,7 +835,7 @@
   "h_mean" : "भुखा",
   "word" : "HUNGRY"
 }, {
-  "mean" : "पुष्पाणि",
+  "mean" : "त्रोटयामि",
   "h_mean" : "मंै तोडती हंॅ",
   "word" : "I BREAK"
 }, {
@@ -851,13 +851,13 @@
   "h_mean" : "में चाहता हॅं",
   "word" : "I WANT TO"
 }, {
-  "mean" : "ग्रहीष्यामि",
+  "mean" : "अहं पराजयं स्वीकर्तास्मि",
   "h_mean" : "हार मानुगा",
   "word" : "I WILL ACCEPT DEFEAT"
 }, {
   "mean" : "आहुयताम्",
-  "h_mean" : "जाउगा",
-  "word" : "I WILL GO"
+  "h_mean" : "तुम दोनों जाओगे",
+  "word" : "YOU BOTH WILL GO"
 }, {
   "mean" : "चलिष्यामि",
   "h_mean" : "चलुगा",
@@ -1235,7 +1235,7 @@
   "h_mean" : "टुकडा",
   "word" : "PIECE"
 }, {
-  "mean" : "्र्र्र्र्र्र्र्रक्रीडति",
+  "mean" : "्रक्रीडति",
   "h_mean" : "एक जना खैलता हैं",
   "word" : "PLAY"
 }, {
@@ -1296,7 +1296,11 @@
   "word" : "RIVER"
 }, {
   "mean" : "मालाकारः",
-  "h_mean" : "माली",
+  "h_mean" : "मालाकार",
+  "word" : "Garland maker"
+}, {
+  "mean" : "जपमाला",
+  "h_mean" : "जपमाला",
   "word" : "ROSARY"
 }, {
   "mean" : "पाटलम्",
@@ -1457,7 +1461,7 @@
 }, {
   "mean" : "वदन्ति",
   "h_mean" : "बाते करना",
-  "word" : "TALK"
+  "word" : "TALKING"
 }, {
   "mean" : "अध्यापकः",
   "h_mean" : "अध्यापक",
@@ -1767,8 +1771,8 @@
   "h_mean" : "यह दो",
   "word" : "TWO THIS THING"
 }, {
-  "mean" : "दो कुआ",
-  "h_mean" : "कुपाभ्याम्",
+  "mean" : "कुपाभ्याम्",
+  "h_mean" : "दो कुआ",
   "word" : "TWO WELL"
 }, {
   "mean" : "चक्रे",
@@ -1841,15 +1845,15 @@
 }, {
   "mean" : "अस्मि",
   "h_mean" : "हुॅं",
-  "word" : "WE IS"
+  "word" : "WE ARE"
 }, {
   "mean" : "रचयामि",
-  "h_mean" : "मै बनाना",
+  "h_mean" : "में बनाउॅंगा",
   "word" : "WE MAKE"
 }, {
   "mean" : "त्रोटयामि",
   "h_mean" : "में तोडता हुॅ",
-  "word" : "WE PLUCK"
+  "word" : "I PLUCK"
 }, {
   "mean" : "पठामः",
   "h_mean" : "हम सब पढते हैं",
@@ -1857,11 +1861,11 @@
 }, {
   "mean" : "पठामि",
   "h_mean" : "मैं पढता हुॅं",
-  "word" : "WE READING"
+  "word" : "I READ"
 }, {
   "mean" : "चलामि",
   "h_mean" : "मैं चलता हुॅ",
-  "word" : "WE WALK"
+  "word" : "I WALK"
 }, {
   "mean" : "धारयित्वा",
   "h_mean" : "पहनकर",
@@ -1907,15 +1911,15 @@
   "h_mean" : "कौन",
   "word" : "WHO"
 }, {
-  "mean" : "ेके",
+  "mean" : "के जनाः",
   "h_mean" : "ये सब कोन हैं",
-  "word" : "WHO ALL PEOPLE"
+  "word" : "WHO ARE ALL THESE PEOPLE"
 }, {
   "mean" : "का",
   "h_mean" : "कोन लडकी",
   "word" : "WHO GIRL"
 }, {
-  "mean" : "के",
+  "mean" : "के बालिके",
   "h_mean" : "ये दो कोन लडकीया हैं",
   "word" : "WHO TWO GIRLS"
 }, {
@@ -2001,15 +2005,15 @@
 }, {
   "mean" : "क्रीडथ",
   "h_mean" : "तुम सब खेलते हो",
-  "word" : "YOU ALL PLAY TALES"
+  "word" : "YOU ALL PLAY"
 }, {
   "mean" : "कुरूथ",
   "h_mean" : "तुम सब करोगे",
-  "word" : "YOU ALL WORKING"
+  "word" : "YOU ALL DO"
 }, {
   "mean" : "स्थ",
   "h_mean" : "सब हो जाए",
-  "word" : "YOU ARE DONE"
+  "word" : "ALL DONE"
 }, {
   "mean" : "पृच्छसि",
   "h_mean" : "तुम पुछते हो",
