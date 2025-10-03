@@ -1528,7 +1528,7 @@
   "word" : "THEREFORE"
 }, {
   "mean" : "तौ",
-  "h_mean" : "वे दौ",
+  "h_mean" : "वे दोनों",
   "word" : "THESE TWO"
 }, {
   "mean" : "इमे",
@@ -1540,7 +1540,7 @@
   "word" : "THEY ARE INTERTWINING"
 }, {
   "mean" : "ते",
-  "h_mean" : "वे दों लडकिया",
+  "h_mean" : "वे दो लडकिया",
   "word" : "THEY TWO GIRLS"
 }, {
   "mean" : "सन्ति",
@@ -1684,7 +1684,7 @@
   "word" : "TWO BOOKS"
 }, {
   "mean" : "इमौ",
-  "h_mean" : "दौ लडके",
+  "h_mean" : "दो लडके",
   "word" : "TWO BOYS"
 }, {
   "mean" : "वृषभौ",
@@ -1732,7 +1732,7 @@
   "word" : "TWO PEOPLE DO"
 }, {
   "mean" : "नमतः",
-  "h_mean" : "दौ लौग नमस्कार करते हैं",
+  "h_mean" : "दो लौग नमस्कार करते हैं",
   "word" : "TWO PEOPLE HELLO"
 }, {
   "mean" : "क्रीडतः",
@@ -1748,7 +1748,7 @@
   "word" : "TWO PEOPLE STUDIES"
 }, {
   "mean" : "नयतः",
-  "h_mean" : "दौ लोग ले जाता हैं",
+  "h_mean" : "दो लोग ले जाता हैं",
   "word" : "TWO PERSON TAKES IT AWAY"
 }, {
   "mean" : "पाटले",
@@ -1760,7 +1760,7 @@
   "word" : "TWO SOLDERS"
 }, {
   "mean" : "नयतः",
-  "h_mean" : "दौ ले जाता हॅं",
+  "h_mean" : "दो ले जाता हॅं",
   "word" : "TWO TAKES IT AWAY"
 }, {
   "mean" : "अध्यापिके",
@@ -2039,4 +2039,5 @@
   "h_mean" : "घर",
   "word" : "HOME"
 } ]
+
 
