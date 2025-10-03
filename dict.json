@@ -1,15 +1,15 @@
 [ {
-  "mean" : "दशवादने",
+  "mean" : "दशवादने समये",
   "h_mean" : "दस बजे",
   "word" : "10'O CLOCK"
 }, {
-  "mean" : "अगृहणात्",
+  "mean" : "अगृह्णात्",
   "h_mean" : "ग्रहण किया",
   "word" : "ACCEPTED IT"
 }, {
   "mean" : "सम्प्राप्ते",
   "h_mean" : "अपने को प्राप्त",
-  "word" : "ACHIEVE YOUR"
+  "word" : "ACHIEVE YOURSELF"
 }, {
   "mean" : "अभिनयम्",
   "h_mean" : "नाटक को",
@@ -60,8 +60,8 @@
   "word" : "ALL BOYS"
 }, {
   "mean" : "नगरेषु",
-  "h_mean" : "शहरो मे",
-  "word" : "ALL CITY"
+  "h_mean" : "सब शहरो मे",
+  "word" : "IN ALL CITIES"
 }, {
   "mean" : "भ्रमन्ति",
   "h_mean" : "सब घुमते हैं",
@@ -96,16 +96,16 @@
   "word" : "ALL GIRLS"
 }, {
   "mean" : "तेषाम्",
-  "h_mean" : "सब उसका",
-  "word" : "ALL HIS"
+  "h_mean" : "उन सबके",
+  "word" : "ALL OF THEM"
 }, {
   "mean" : "अश्वाः",
-  "h_mean" : "सब घोडा",
-  "word" : "ALL HORSE"
+  "h_mean" : "सब घोड़े",
+  "word" : "ALL HORSES"
 }, {
   "mean" : "आसन्दकासु",
-  "h_mean" : "सब कुर्सी पर",
-  "word" : "ALL IN CHAIR"
+  "h_mean" : "कुर्सियां",
+  "word" : "CHAIRS"
 }, {
   "mean" : "आसन्दिकासु",
   "h_mean" : "सब कुर्सी पर",
@@ -120,24 +120,24 @@
   "word" : "ALL JUMPING"
 }, {
   "mean" : "जीवन्ति",
-  "h_mean" : "सब जितते हैं",
-  "word" : "ALL LIVING"
+  "h_mean" : "सब जीते हैं",
+  "word" : "EVERYONE LIVES"
 }, {
   "mean" : "कमलानि",
   "h_mean" : "सब कमल",
   "word" : "ALL LOTUS"
 }, {
   "mean" : "मातरः",
-  "h_mean" : "माता",
-  "word" : "ALL MOTHER"
+  "h_mean" : "माताएँ",
+  "word" : "MOTHERS"
 }, {
   "mean" : "अस्माकम्",
   "h_mean" : "हम सभी के",
   "word" : "ALL OF US"
 }, {
   "mean" : "कार्यालयेभ्यः",
-  "h_mean" : "सारे कार्यालय",
-  "word" : "ALL OFFICE"
+  "h_mean" : "कार्यालयों के लिए",
+  "word" : "FOR OFFICES"
 }, {
   "mean" : "जनाः",
   "h_mean" : "सब लोग",
@@ -145,7 +145,7 @@
 }, {
   "mean" : "पठन्ति",
   "h_mean" : "सब पढते हैं",
-  "word" : "ALL PEOPLE READ"
+  "word" : "ALL PEOPLE STUDIES"
 }, {
   "mean" : "गायन्ति",
   "h_mean" : "सब गाते हैं",
@@ -156,20 +156,20 @@
   "word" : "ALL PEOPLE STUDIES"
 }, {
   "mean" : "कुवर्न्ति",
-  "h_mean" : "सब काम करते हैं",
-  "word" : "ALL PEOPLE WORK"
+  "h_mean" : "सब करते हैं",
+  "word" : "ALL PEOPLE DO"
 }, {
   "mean" : "सरोवरेषु",
-  "h_mean" : "सब तालाब में",
-  "word" : "ALL POND IN"
+  "h_mean" : "सरोवरों में",
+  "word" : "IN LAKES"
 }, {
   "mean" : "वसन्ति",
-  "h_mean" : "सब रहते हैं",
-  "word" : "ALL REMAINS"
+  "h_mean" : "वे रहते हैं",
+  "word" : "THEY LIVES"
 }, {
   "mean" : "पाटलानि",
   "h_mean" : "सब गुलाब",
-  "word" : "ALL ROSE"
+  "word" : "ALL ROSES"
 }, {
   "mean" : "धावन्ति",
   "h_mean" : "सब भागते हैं",
@@ -188,15 +188,15 @@
   "word" : "ALL STUDENTS"
 }, {
   "mean" : "अध्यापिकान्",
-  "h_mean" : "सब अध्यापिका",
-  "word" : "ALL TEACHERS"
+  "h_mean" : "सब अध्यापिका को",
+  "word" : "TO ALL TEACHERS"
 }, {
   "mean" : "ते",
   "h_mean" : "वह सब",
   "word" : "ALL THAT"
 }, {
   "mean" : "इमानि",
-  "h_mean" : "सब समान",
+  "h_mean" : "सब सामान",
   "word" : "ALL THINGS"
 }, {
   "mean" : "चक्राणि",
@@ -217,7 +217,7 @@
 }, {
   "mean" : "पुरा",
   "h_mean" : "प्राचिन काल",
-  "word" : "ANCEINT PERIOD"
+  "word" : "ANCIENT PERIOD"
 }, {
   "mean" : "वार्षिकोत्सवः",
   "h_mean" : "वार्षिकोत्सव",
@@ -357,7 +357,7 @@
 }, {
   "mean" : "दन्तमञजनं",
   "h_mean" : "दात साफ करने",
-  "word" : "BRUSHNG"
+  "word" : "BRUSHING"
 }, {
   "mean" : "अदहत्",
   "h_mean" : "जलाना",
@@ -417,7 +417,7 @@
 }, {
   "mean" : "बालाः",
   "h_mean" : "सारे बच्चे",
-  "word" : "CHILDRENS"
+  "word" : "CHILDREN"
 }, {
   "mean" : "कक्षाप्रमुखः",
   "h_mean" : "कक्षाप्रमुख",
@@ -429,7 +429,7 @@
 }, {
   "mean" : "स्वच्छ वस्त्राणि",
   "h_mean" : "साफ कपड़े",
-  "word" : "CLEAN CLOTHS"
+  "word" : "CLEAN CLOTHES"
 }, {
   "mean" : "अवतरणः",
   "h_mean" : "चढता हैं",
@@ -593,7 +593,7 @@
 }, {
   "mean" : "कृषकः",
   "h_mean" : "किसान",
-  "word" : "FARMERS"
+  "word" : "FARMER"
 }, {
   "mean" : "जनकः",
   "h_mean" : "पिता",
@@ -616,12 +616,12 @@
   "word" : "FIRST OF ALL"
 }, {
   "mean" : "मालाकारः",
-  "h_mean" : "फुल वाला",
-  "word" : "FLOWERBED"
+  "h_mean" : "फूल वाला",
+  "word" : "GARLAND MAKER"
 }, {
   "mean" : "पलायितः",
-  "h_mean" : "पालन किया",
-  "word" : "FOLLOWED"
+  "h_mean" : "पलायन",
+  "word" : "RAN AWAY"
 }, {
   "mean" : "भोजनं",
   "h_mean" : "भोजन को",
@@ -2039,3 +2039,4 @@
   "h_mean" : "घर",
   "word" : "HOME"
 } ]
+
