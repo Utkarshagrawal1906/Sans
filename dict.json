@@ -1732,7 +1732,7 @@
   "word" : "TWO PEOPLE DO"
 }, {
   "mean" : "नमतः",
-  "h_mean" : "दो लौग नमस्कार करते हैं",
+  "h_mean" : "दो लोग नमस्कार करते हैं",
   "word" : "TWO PEOPLE HELLO"
 }, {
   "mean" : "क्रीडतः",
@@ -2039,5 +2039,6 @@
   "h_mean" : "घर",
   "word" : "HOME"
 } ]
+
 
 
