@@ -803,6 +803,10 @@
   "h_mean" : "ईधर उधर",
   "word" : "HERE-THERE"
 }, {
+  "mean" : "गृह",
+  "h_mean" : "घर",
+  "word" : "HOME"
+}, {
   "mean" : "गृह कार्यम्",
   "h_mean" : "गृह कार्य",
   "word" : "HOME WORK"
@@ -2034,11 +2038,4 @@
   "mean" : "करोषि",
   "h_mean" : "तुम करते हो",
   "word" : "YOU WORK"
-}, {
-  "mean" : "गृह",
-  "h_mean" : "घर",
-  "word" : "HOME"
 } ]
-
-
-
