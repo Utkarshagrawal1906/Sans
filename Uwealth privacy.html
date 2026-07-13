@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UWealth — Privacy Policy</title>
+<style>
+  :root{
+    --ink:#152238;
+    --ink-soft:#4b5768;
+    --paper:#FBF8F0;
+    --paper-panel:#F1ECDD;
+    --rule:#D8CFB8;
+    --brass:#9C7A3C;
+    --brass-deep:#7A5F2E;
+    --teal:#2F6F5E;
+    --max:820px;
+  }
+
+  *{box-sizing:border-box;}
+
+  html{scroll-behavior:smooth;}
+
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:"Iowan Old Style","Palatino Linotype",Georgia,serif;
+    line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  .sans{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+
+  .mono{
+    font-family:"Courier New",Courier,monospace;
+    letter-spacing:0.02em;
+  }
+
+  a{color:var(--teal);}
+  a:hover{color:var(--brass-deep);}
+  a:focus-visible, button:focus-visible{outline:2px solid var(--brass); outline-offset:3px;}
+
+  /* ---------- Header / stamp ---------- */
+  header{
+    border-bottom:3px double var(--ink);
+    padding:56px 24px 40px;
+    position:relative;
+  }
+  .header-inner{
+    max-width:var(--max);
+    margin:0 auto;
+    position:relative;
+  }
+  .eyebrow{
+    font-family:"Courier New",monospace;
+    font-size:12px;
+    letter-spacing:0.22em;
+    text-transform:uppercase;
+    color:var(--brass-deep);
+    margin:0 0 14px;
+  }
+  h1.wordmark{
+    font-size:clamp(2.2rem, 6vw, 3.2rem);
+    margin:0;
+    font-weight:600;
+    letter-spacing:-0.01em;
+  }
+  .wordmark .u{color:var(--teal);}
+  .tagline{
+    font-family:"Courier New",monospace;
+    font-size:13px;
+    color:var(--ink-soft);
+    margin-top:10px;
+    letter-spacing:0.03em;
+  }
+
+  .stamp{
+    position:absolute;
+    top:0;
+    right:24px;
+    width:118px;
+    height:118px;
+    border:2px solid var(--brass);
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    transform:rotate(-9deg);
+    color:var(--brass-deep);
+    font-family:"Courier New",monospace;
+    font-size:11px;
+    letter-spacing:0.14em;
+    text-transform:uppercase;
+    opacity:0.85;
+  }
+  .stamp::before{
+    content:"";
+    position:absolute;
+    inset:8px;
+    border:1px solid var(--brass);
+    border-radius:50%;
+  }
+  .stamp span{padding:0 10px;}
+  @media (max-width:640px){ .stamp{display:none;} }
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:24px;
+    margin-top:28px;
+    font-family:"Courier New",monospace;
+    font-size:12px;
+    color:var(--ink-soft);
+  }
+  .meta-row div span{display:block; color:var(--ink); font-size:13px; margin-top:2px;}
+
+  /* ---------- Layout ---------- */
+  .layout{
+    max-width:1080px;
+    margin:0 auto;
+    display:flex;
+    gap:48px;
+    padding:48px 24px 100px;
+    align-items:flex-start;
+  }
+  nav.toc{
+    flex:0 0 220px;
+    position:sticky;
+    top:32px;
+    font-family:"Courier New",monospace;
+    font-size:12.5px;
+  }
+  nav.toc h2{
+    font-size:11px;
+    text-transform:uppercase;
+    letter-spacing:0.16em;
+    color:var(--brass-deep);
+    margin:0 0 14px;
+    font-weight:600;
+  }
+  nav.toc ol{list-style:none; margin:0; padding:0; counter-reset:toc;}
+  nav.toc li{counter-increment:toc; margin-bottom:9px;}
+  nav.toc a{
+    color:var(--ink-soft);
+    text-decoration:none;
+    display:flex;
+    gap:8px;
+  }
+  nav.toc a::before{
+    content:counter(toc, decimal-leading-zero);
+    color:var(--brass);
+    flex:0 0 auto;
+  }
+  nav.toc a:hover{color:var(--ink);}
+  @media (max-width:900px){ nav.toc{display:none;} }
+
+  main{flex:1 1 auto; max-width:var(--max);}
+
+  section{
+    padding:30px 0;
+    border-bottom:1px solid var(--rule);
+  }
+  section:last-of-type{border-bottom:none;}
+
+  .sec-num{
+    font-family:"Courier New",monospace;
+    font-size:12px;
+    color:var(--brass-deep);
+    letter-spacing:0.12em;
+    margin-bottom:6px;
+    display:block;
+  }
+  h2{
+    font-size:1.4rem;
+    margin:0 0 14px;
+    font-weight:600;
+  }
+  h3{
+    font-size:1.05rem;
+    margin:22px 0 8px;
+    font-weight:600;
+    color:var(--ink);
+  }
+  p{margin:0 0 14px; color:var(--ink);}
+  ul{margin:0 0 14px; padding-left:22px;}
+  li{margin-bottom:8px;}
+
+  table.data-table{
+    width:100%;
+    border-collapse:collapse;
+    margin:18px 0 20px;
+    font-size:14.5px;
+  }
+  table.data-table th, table.data-table td{
+    text-align:left;
+    padding:10px 12px;
+    border:1px solid var(--rule);
+    vertical-align:top;
+  }
+  table.data-table th{
+    background:var(--paper-panel);
+    font-family:"Courier New",monospace;
+    font-size:11.5px;
+    text-transform:uppercase;
+    letter-spacing:0.06em;
+    color:var(--brass-deep);
+    font-weight:600;
+  }
+
+  .callout{
+    background:var(--paper-panel);
+    border-left:3px solid var(--brass);
+    padding:16px 18px;
+    margin:16px 0;
+    font-size:14.5px;
+  }
+  .callout strong{color:var(--brass-deep);}
+
+  .no-share{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    background:var(--paper-panel);
+    border:1px solid var(--rule);
+    padding:14px 16px;
+    font-family:"Courier New",monospace;
+    font-size:13px;
+    margin:6px 0 18px;
+  }
+  .no-share::before{content:"✓"; color:var(--teal); font-weight:bold;}
+
+  footer{
+    border-top:3px double var(--ink);
+    padding:36px 24px 60px;
+    font-family:"Courier New",monospace;
+    font-size:12px;
+    color:var(--ink-soft);
+    text-align:center;
+  }
+  footer a{color:var(--brass-deep);}
+
+  #back-to-top{
+    position:fixed;
+    bottom:24px;
+    right:24px;
+    background:var(--ink);
+    color:var(--paper);
+    border:none;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    cursor:pointer;
+    font-size:16px;
+    opacity:0;
+    pointer-events:none;
+    transition:opacity 0.25s ease, transform 0.25s ease;
+    box-shadow:0 4px 14px rgba(21,34,56,0.25);
+  }
+  #back-to-top.visible{opacity:1; pointer-events:auto;}
+  #back-to-top:hover{transform:translateY(-2px);}
+
+  @media print{
+    nav.toc, #back-to-top{display:none;}
+    .layout{display:block;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <p class="eyebrow">Legal Document · Play Store Disclosure</p>
+    <h1 class="wordmark"><span class="u">U</span>Wealth</h1>
+    <p class="tagline">// personal net-worth &amp; expense ledger — privacy policy</p>
+
+    <div class="stamp" aria-hidden="true">
+      <span>Reviewed &amp; Filed</span>
+    </div>
+
+    <div class="meta-row">
+      <div>Effective<span>14 July 2026</span></div>
+      <div>Last updated<span>14 July 2026</span></div>
+      <div>Document<span>v1.0</span></div>
+      <div>Applies to<span>com.utkarsh.uwealth</span></div>
+    </div>
+  </div>
+</header>
+
+<div class="layout">
+
+  <nav class="toc" aria-label="Table of contents">
+    <h2>Contents</h2>
+    <ol>
+      <li><a href="#intro">Introduction</a></li>
+      <li><a href="#data-we-collect">Data we collect</a></li>
+      <li><a href="#where-it-lives">Where your data lives</a></li>
+      <li><a href="#google-services">Google services we use</a></li>
+      <li><a href="#location">Location data</a></li>
+      <li><a href="#sharing">Data sharing</a></li>
+      <li><a href="#security">Security</a></li>
+      <li><a href="#retention">Retention &amp; deletion</a></li>
+      <li><a href="#children">Children's privacy</a></li>
+      <li><a href="#rights">Your choices</a></li>
+      <li><a href="#changes">Policy changes</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ol>
+  </nav>
+
+  <main>
+
+    <section id="intro">
+      <span class="sec-num">§ 01</span>
+      <h2>Introduction</h2>
+      <p>UWealth ("the app", "we", "our") is a personal finance tracker for recording mutual funds, fixed deposits, property, cash accounts, loans, and everyday expenses. This policy explains what information the app handles, where it is stored, and what control you have over it.</p>
+      <p>UWealth is built and maintained by an independent developer, not a financial institution. The app does not provide investment advice, and it does not transmit your financial records to us or to any analytics or advertising company.</p>
+    </section>
+
+    <section id="data-we-collect">
+      <span class="sec-num">§ 02</span>
+      <h2>Data we collect</h2>
+      <p>Everything you enter into UWealth — mutual fund holdings, FD details, property valuations, bank and cash balances, loan installments, expenses, and savings targets — is <strong>data you provide directly</strong>, for the sole purpose of showing it back to you inside the app.</p>
+
+      <table class="data-table">
+        <thead>
+          <tr><th>Category</th><th>Examples</th><th>Collected because</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Financial records</td><td>Fund units, NAVs, FD principal &amp; maturity values, property valuations, expenses, loan installments</td><td>Core function of the app — calculating your net worth</td></tr>
+          <tr><td>Account identifiers</td><td>Google account email address</td><td>Only if you choose to sign in for cloud backup</td></tr>
+          <tr><td>Location (optional)</td><td>Coarse or precise device location</td><td>Only used if you tag a property's location on the map</td></tr>
+          <tr><td>Backup PIN</td><td>A PIN you set yourself</td><td>Used to encrypt your backup file before upload</td></tr>
+        </tbody>
+      </table>
+
+      <p>UWealth does <strong>not</strong> collect your name, phone number, contacts, photos, browsing history, or device identifiers for advertising purposes, and the app contains no ad SDKs.</p>
+    </section>
+
+    <section id="where-it-lives">
+      <span class="sec-num">§ 03</span>
+      <h2>Where your data lives</h2>
+      <p>By default, all financial data you enter is stored <strong>only on your device</strong>, in a local database. It is never automatically sent anywhere.</p>
+      <p>If you optionally turn on cloud backup, a single backup file — encrypted on your device before it ever leaves it — is uploaded to your own Google Drive account, in a hidden application-data folder that is not visible in your regular Drive file list and that no one but the app (using your sign-in) can open.</p>
+      <div class="callout">
+        <strong>In short:</strong> your ledger stays on your phone unless you switch on backup, and even then, only you hold the key that unlocks it.
+      </div>
+    </section>
+
+    <section id="google-services">
+      <span class="sec-num">§ 04</span>
+      <h2>Google services we use</h2>
+      <h3>Google Sign-In</h3>
+      <p>Used only to authorize backup and restore. We receive your email address so the app can show you which account is connected — we do not use it for marketing or share it with anyone.</p>
+      <h3>Google Drive (App Data folder)</h3>
+      <p>Stores your encrypted backup file. The app requests the restricted <span class="mono">drive.appdata</span> scope only, which cannot see or touch any other files in your Drive.</p>
+      <h3>Google Maps</h3>
+      <p>Used to display a map and let you pin a location when adding a property asset. Map interactions are handled by Google's Maps SDK under <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's own privacy policy</a>; UWealth does not log or store your movements.</p>
+    </section>
+
+    <section id="location">
+      <span class="sec-num">§ 05</span>
+      <h2>Location data</h2>
+      <p>UWealth requests location permission solely to help you drop an accurate pin when recording a property's address on the map. Location is not read in the background, not attached to any other record, and not sent to us. You can deny this permission and still use every other feature of the app — only the "pin on map" convenience for properties will be unavailable.</p>
+    </section>
+
+    <section id="sharing">
+      <span class="sec-num">§ 06</span>
+      <h2>Data sharing</h2>
+      <div class="no-share">No data is sold. No data is shared with advertisers. No third-party analytics SDK is embedded in this app.</div>
+      <p>The only outside parties involved at all are Google (for optional sign-in, Drive backup, and Maps), governed by Google's own privacy policy, and app stores that distribute the app (Play Store / Indus Appstore), which see only what any app listing normally provides.</p>
+    </section>
+
+    <section id="security">
+      <span class="sec-num">§ 07</span>
+      <h2>Security</h2>
+      <p>Your backup file is encrypted on-device using AES-256-GCM before it is ever uploaded, with the key derived from the PIN you choose. We never transmit your raw financial data or your PIN to any server we operate — there is no server; the only remote copy is the encrypted file in your own Drive.</p>
+      <p>As with any app, no method of storage or transmission can be guaranteed 100% secure. Choosing a PIN that isn't easily guessed, and keeping your Google account itself secure (e.g. with two-factor authentication), meaningfully protects your backup.</p>
+    </section>
+
+    <section id="retention">
+      <span class="sec-num">§ 08</span>
+      <h2>Retention &amp; deletion</h2>
+      <ul>
+        <li><strong>On-device data</strong> is kept until you delete individual records, clear app data, or uninstall the app.</li>
+        <li><strong>Cloud backups</strong> are kept until you delete the backup file from within the app, disconnect your Google account, or remove app access from your <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">Google Account permissions page</a>.</li>
+        <li>Uninstalling the app removes all locally stored data. It does not remove a Drive backup you created — do that separately if you want it gone too.</li>
+      </ul>
+    </section>
+
+    <section id="children">
+      <span class="sec-num">§ 09</span>
+      <h2>Children's privacy</h2>
+      <p>UWealth is a personal finance tool intended for adults managing their own money, and is not directed at children under 13 (or the minimum age defined by local law). We do not knowingly collect data from children.</p>
+    </section>
+
+    <section id="rights">
+      <span class="sec-num">§ 10</span>
+      <h2>Your choices</h2>
+      <ul>
+        <li>Use the app entirely offline, with no Google sign-in, and no data ever leaves your device.</li>
+        <li>Export your data to Excel at any time for your own records or to move to another tool.</li>
+        <li>Disconnect Google Drive access at any point without losing locally stored records.</li>
+        <li>Delete your on-device data by clearing the app's storage in Android Settings, or by uninstalling the app.</li>
+      </ul>
+    </section>
+
+    <section id="changes">
+      <span class="sec-num">§ 11</span>
+      <h2>Changes to this policy</h2>
+      <p>If this policy changes, the "Last updated" date at the top of this page will change accordingly. Material changes affecting how your data is handled will be reflected here before they take effect.</p>
+    </section>
+
+    <section id="contact">
+      <span class="sec-num">§ 12</span>
+      <h2>Contact</h2>
+      <p>Questions about this policy or your data can be sent to:</p>
+      <p class="mono">[add your contact email here]</p>
+    </section>
+
+  </main>
+</div>
+
+<footer>
+  UWealth — Privacy Policy · v1.0 · 14 July 2026<br>
+  <a href="#" onclick="window.scrollTo({top:0,behavior:'smooth'}); return false;">Back to top</a>
+</footer>
+
+<button id="back-to-top" aria-label="Back to top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+<script>
+  const backBtn = document.getElementById('back-to-top');
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 500) backBtn.classList.add('visible');
+    else backBtn.classList.remove('visible');
+  });
+</script>
+
+</body>
+</html>
